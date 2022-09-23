@@ -1,0 +1,34 @@
+.giveaway {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .giveaway label {
+    text-align: left;
+    margin-top: 10px;
+    display: block;
+  }
+  .giveaway h2 {
+    font-size: 20px;
+    color: #f2a283;
+    margin-bottom: 30px;
+  }
+  .giveaway input, .giveaway textarea, .giveaway Select {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+  }
+  
+  .giveaway button {
+    background: #f2a283;
+    color: #003637;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    cursor: pointer;
+  }

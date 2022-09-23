@@ -1,0 +1,44 @@
+.addNewRestaurant {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+  
+  .addNewRestaurant label {
+    text-align: left;
+    display: block;
+  }
+  .addNewRestaurant h2 {
+    font-size: 20px;
+    color: #f2a283;
+    margin-bottom: 30px;
+  }
+  .addNewRestaurant input, .addNewRestaurant textarea, .addNewRestaurant select {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+  }
+  .addNewRestaurant button {
+    background: #f2a283;
+    color: #003637;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+
+  .closeBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .closeBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }

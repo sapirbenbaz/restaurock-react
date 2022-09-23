@@ -1,13 +1,32 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.giveaway {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.giveaway label {
+  text-align: left;
+  display: block;
+}
+.giveaway h2 {
+  font-size: 20px;
+  color: #f2a283;
+  margin-bottom: 30px;
+}
+.giveaway input, .giveaway textarea, .giveaway select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.giveaway button {
+  background: #f2a283;
+  color: #003637;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  margin-top: 15px;
+  cursor: pointer;
 }
